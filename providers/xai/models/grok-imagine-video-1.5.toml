@@ -1,4 +1,6 @@
+schema = 2
 base_model = "xai/grok-imagine-video-1.5"
 
 [modalities]
-input = ["text", "image", "audio", "pdf"]
+input = ["text", "image", "audio", "application/pdf"]
+output = ["video"]
