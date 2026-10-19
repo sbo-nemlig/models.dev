@@ -145,6 +145,8 @@ function toReasoningOptions(reasoning: ReasoningSupportV2) {
 function costV2ToV1(cost: CostV2) {
   const input = cost.text?.input;
   const output = cost.text?.output;
+  // v1 prices are per text token, so media-only prices (per second, per image…) stay v2-only.
+  if (input === undefined && output === undefined) return undefined;
   if (input === undefined || output === undefined) {
     throw new Error("v1 cost needs text input and output prices");
   }
