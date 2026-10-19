@@ -3,6 +3,7 @@
 # - https://docs.cloud.google.com/vertex-ai/generative-ai/docs/partner-models/grok/capabilities/reasoning
 # - https://cloud.google.com/gemini-enterprise-agent-platform/generative-ai/pricing
 base_model = "xai/grok-4.1-fast-reasoning"
+structured_output = true
 description = "Fast Grok model for responsive chat, reasoning, and tool-assisted work"
 reasoning_options = []
 status = "deprecated"

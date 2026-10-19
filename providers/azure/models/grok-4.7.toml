@@ -2,6 +2,7 @@
 # Pricing not yet published on Azure's public pricing page.
 # Azure catalog lists context/output limits identical to the base model (500k/500k), so no override is needed.
 base_model = "xai/grok-4.7"
+structured_output = true
 status = "beta"
 
 [[reasoning_options]]

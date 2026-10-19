@@ -3,6 +3,7 @@
 # - https://docs.cloud.google.com/vertex-ai/generative-ai/docs/partner-models/grok/capabilities/reasoning
 # - https://cloud.google.com/gemini-enterprise-agent-platform/generative-ai/pricing
 base_model = "xai/grok-4.3"
+structured_output = true
 reasoning_options = []
 status = "beta"
 

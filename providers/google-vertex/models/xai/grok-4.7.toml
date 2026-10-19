@@ -3,6 +3,7 @@
 # - https://cloud.google.com/gemini-enterprise-agent-platform/generative-ai/pricing
 # Effort: reasoning_effort = low|medium|high, matching grok-4.6 on this endpoint (which rejects xhigh).
 base_model = "xai/grok-4.7"
+structured_output = true
 reasoning_options = [{ type = "effort", values = ["low", "medium", "high"] }]
 status = "beta"
 

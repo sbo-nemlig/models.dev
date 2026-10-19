@@ -1,6 +1,7 @@
 # Source: https://learn.microsoft.com/en-us/azure/foundry/foundry-models/how-to/use-foundry-models-grok
 # Pricing: https://azure.microsoft.com/en-us/pricing/details/ai-foundry-models/grok/
 base_model = "xai/grok-4.6"
+structured_output = true
 status = "beta"
 
 [[reasoning_options]]

@@ -6,6 +6,7 @@
 # unset 3409, low 495, high 6180. The endpoint rejects xhigh and none. The reasoning page claim that Grok
 # reasoning models ignore reasoning_effort holds for grok-4.20 and grok-4.1-fast, not grok-4.6.
 base_model = "xai/grok-4.6"
+structured_output = true
 reasoning_options = [{ type = "effort", values = ["low", "medium", "high"] }]
 
 [cost]

@@ -2,6 +2,7 @@
 # Runtime Converse profile; Global CRIS Standard pricing ($2.00/$6.00, cache read $0.50). In-region and bedrock-mantle are not supported for 4.7.
 # Effort: additionalModelRequestFields.reasoning.effort = low|medium|high|xhigh, matching the US profile. Structured outputs are supported on bedrock-runtime for 4.7 (inherited true).
 base_model = "xai/grok-4.7"
+structured_output = true
 reasoning_options = [{ type = "effort", values = ["low", "medium", "high", "xhigh"] }]
 name = "Grok 4.7 (Global)"
 last_updated = "2026-09-28"
